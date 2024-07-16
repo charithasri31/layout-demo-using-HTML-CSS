@@ -1,0 +1,40 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+}
+header {
+    text-align: center;
+    background-color:rgb(245,212,172);
+    padding: 80px;
+    font-size: 60px;
+}
+nav {
+    background-color: rgb(219, 248, 165);
+    width: 25%;
+    font-size:125%;
+    height: 300px;
+    float: left;
+}
+nav  ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+article {
+    float: left;
+    width:75%;
+    background-color:rgb(93,237,201);
+    height: 300px;
+}
+/* pseudo element selector */
+section::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+footer {
+    text-align: center;
+    background-color: rgb(203, 237, 140);
+    font-size: 30px;
+    padding: 40px 0;
+}
